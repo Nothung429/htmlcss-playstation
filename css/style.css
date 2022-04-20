@@ -1,0 +1,84 @@
+/*------ general ------*/
+img {
+    max-width: 100%;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+}
+/*------ header top ------*/
+.header-top {
+    background-color: #000;
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+    width: 100%;
+}
+.header-top img {
+    height: 20px;
+}
+/*------ header bottom ------*/
+.header-bottom {
+    background-color: #fff;
+    width: 100%;
+}
+.header-nav-left ,.header-nav-right {
+    display: flex;  
+    align-items: center;
+    padding: 10px;
+}
+.header-nav-right {
+    justify-content: flex-end;
+}
+.header-nav-left ul {
+    display: flex;
+    padding-left: 0;
+}
+.header-nav-left ul ,.header-nav-right li {
+    margin: 0;
+    list-style: none;
+}
+.header-nav-left > * ,.header-nav-right > * ,.header-nav-left ul li {
+    margin: 0 10px;
+}
+.header-nav-left ul li a ,.header-nav-right li a {
+    color: #000;
+    text-decoration: none;
+}
+.chevron-base ,.chevron-hover {
+    height: 14px;
+}
+
+/*------ main ------*/
+main {
+    height: 700vh;
+}
+
+/*------ jumbotron ------*/
+.jumbotron {
+    margin-top: 110px;
+    margin-bottom: 50px;
+    height: 600px;
+    background-image: url(../img/jumbo-bg.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.hero {
+    position: absolute;
+    bottom: 50px;
+    left: 30px;
+    width: 30%;
+    color: #fff;
+}
+.hero img {
+    width: 50%;
+}
+.hero > * {
+    margin: 20px 0;
+}
+
