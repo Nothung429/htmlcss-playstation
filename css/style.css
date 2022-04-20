@@ -2,6 +2,10 @@
 img {
     max-width: 100%;
 }
+.container-custom {
+    max-width: 700px;
+    margin: auto;
+}
 
 /*------ section1 ------*/
 /*------ jumbotron ------*/
@@ -53,4 +57,9 @@ img {
 /*------ section4 ------*/
 .section4-bg {
     background-color: #bebcbb;
+}
+
+/*------ section5 ------*/
+.section5-bg {
+    background-color: #161c3b;
 }
