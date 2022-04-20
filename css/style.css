@@ -7,16 +7,20 @@ img {
 main {
     height: 700vh;
 }
-
+/*------ section1 ------*/
 /*------ jumbotron ------*/
-.jumbotron {
-    margin-top: 110px;
-    margin-bottom: 30px;
+.jumbotron ,.jumbotron2 {
     height: 600px;
-    background-image: url(../img/jumbo-bg.png);
     background-size: cover;
     background-position: center;
     position: relative;
+}
+.jumbotron {
+    margin-top: 110px;
+    background-image: url(../img/jumbo-bg.png);
+}
+.jumbotron2 {
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
 }
 .hero {
     position: absolute;
@@ -34,4 +38,14 @@ main {
 
 .hero-references img {
     border-radius: 20px;
+}
+
+/*------ section2 ------*/
+.section-title {
+    text-align: center;
+}
+
+/*------ section3 ------*/
+.section3-bg {
+    background-color: #1f1f1f;
 }
