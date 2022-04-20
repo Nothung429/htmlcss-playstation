@@ -3,10 +3,6 @@ img {
     max-width: 100%;
 }
 
-/*------ main ------*/
-main {
-    height: 700vh;
-}
 /*------ section1 ------*/
 /*------ jumbotron ------*/
 .jumbotron ,.jumbotron2 {
@@ -48,4 +44,13 @@ main {
 /*------ section3 ------*/
 .section3-bg {
     background-color: #1f1f1f;
+    color: #fff;
+}
+.new-games {
+    border-radius: 20px;
+}
+
+/*------ section4 ------*/
+.section4-bg {
+    background-color: #bebcbb;
 }
