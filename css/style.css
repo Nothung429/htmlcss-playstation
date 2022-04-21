@@ -40,6 +40,10 @@ button {
     background-color: #f5f5f5;
     color: #000;
 }
+button:hover {
+    border: 6px solid #000;
+    padding: 5px;
+}
 
 /*------ typo ------*/
 h1 ,h2 ,h3 ,h4 ,h5 ,h6 {
@@ -117,13 +121,7 @@ header {
     align-items: center;
     padding: 10px;
 }
-.header-nav-right {
-    justify-content: flex-end;
-}
-.header-nav-right nav {
-    display: flex;
-    align-items: center;
-}
+/*------ header bottom left ------*/
 .header-nav-left ul {
     display: flex;
     padding-left: 0;
@@ -132,15 +130,42 @@ header {
     margin: 0;
     list-style: none;
 }
+
+/*------ header bottom right ------*/
+.header-nav-right {
+    justify-content: flex-end;
+}
+.header-nav-right nav {
+    display: flex;
+    align-items: center;
+}
+
+/*------ header bottom links ------*/
 .header-nav-left > * ,.header-nav-right  nav > * ,.header-nav-left ul li {
     margin: 0 10px;
 }
 .header-nav-left ul li a ,.header-nav-right li a {
-    color: #000;
+    color: #727272;
     text-decoration: none;
 }
+
+/*------ header bottom links hover ------*/
+.header-nav-left ul li a:hover ,.header-nav-right li a:hover {
+    color: #000;
+}
+.header-nav-left ul li a:hover .chevron-hover ,.header-nav-right li a:hover .chevron-hover {
+    display: inline;
+}
+.header-nav-left ul li a:hover .chevron-base ,.header-nav-right li a:hover .chevron-base {
+    display: none;
+}
+
+/*------ header icons ------*/
 .chevron-base ,.chevron-hover {
     height: 14px;
+}
+.chevron-hover {
+    display: none;
 }
 .burger {
     margin-right: 10px;
@@ -176,6 +201,15 @@ header {
 .hero-references img {
     border-radius: 20px;
 }
+
+/*------ section1 hover ------*/
+.hero-references img:hover {
+    border: 2px solid #00439c;
+    padding: 5px;
+}
+
+/*------ section2 ------*/
+
 
 /*------ section3 ------*/
 .jumbotron2 {
