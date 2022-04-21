@@ -9,9 +9,12 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
         <!------ cdn fontawesome ------>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+        <!------ google fonts ------>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
         <!------ link css ------>
         <link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet" href="css/header.css">
         <title>PlayStore</title>
     </head>
 
@@ -64,7 +67,7 @@
                                 <a href="#">My PlayStation</a>
                                 <img class="chevron-base" src="img/chevron-down-solid.svg" alt="base">
                             </li>
-                            <button>Accedi</button>
+                            <button id="access">Accedi</button>
                             <img src="img/lens.svg" alt="cerca">
                         </nav>
                         <div class="d-block d-sm-block d-md-block d-lg-none">
@@ -80,7 +83,7 @@
         <main>
             <!------ section1 (jumbotron) ------>
             <section class="pb-5">
-                <div class="jumbotron py-4">
+                <div class="jumbotron py-5">
                     <div class="container">
                         <div class="row">
                             <div class="col-12 col-lg-4">
@@ -88,7 +91,7 @@
                                     <img src="img/returnal-hero-banner-logo.png" alt="">
                                     <h1>Rompi il cerchio</h1>
                                     <p>Rialzati dopo ogni sconfitta e affronta una nuova sfida con ogni rinascita in questo esplosivo thriller fantascientifico, disponibile in esclusiva su PS5</p>
-                                    <button>Acquista ora</button>
+                                    <button id="buy">Acquista ora</button>
                                 </div>
                             </div>
                         </div>
@@ -120,7 +123,7 @@
             <!------ section2 (playstation 5) ------>
             <section class="my-5">
                 <div class="container">
-                    <div class="text-center">
+                    <div class="text-center mb-5">
                         <p class="text-color4">play has no limits</p>
                         <h2 class="text-color2 mb-4">Ecco la PlayStation 5</h2>
                         <p class="text-color3 fs-5">Tuffati in nuove possibilità di gioco completamente inaspettate</p>
@@ -129,7 +132,7 @@
                         <div class="col-12 col-md-5">
                             <h2 class="text-color2">Console PlayStation 5</h2>
                             <p class="text-color3 my-4">Sperimenta la nuova generazione di incredibili giochi PlayStation.</p>
-                            <button>Maggiori Informazioni</button>
+                            <button id="info">Maggiori Informazioni</button>
                         </div>
                         <div class="col-12 col-md-7">
                             <img src="img/playstation-5-thumb.png" alt="img console">
@@ -169,7 +172,7 @@
                                     <img src="img/it-takes-two-logo.png" alt="">
                                     <h1>Un'avventura cooperativa selvaggia ti attende</h1>
                                     <p>Trova un amico e partite insieme per l'avventura più folle delle vostre vite in it Takes Two, un gioco d'avventura cooperativa a piattaforme che stravolge il suo genere</p>
-                                    <button>Acquista ora</button>
+                                    <button id="buy">Acquista ora</button>
                                 </div>
                             </div>
                         </div>
@@ -241,24 +244,24 @@
                         <h2 class="text-color2 mb-4">Esplora la PlayStation® 4</h2>
                         <p class="text-color3 fs-5">Giochi incredibili e intrattenimento senza fine. <br> Non c'è mai stato un momento migliore per giocare sulla tua PS4</p>
                     </div>
-                    <div class="row mb-5">
+                    <div class="row mb-5 g-5">
                         <div class="col-12 col-md-4">
                             <img src="img/ps4-slim-homepage-image-block.jpg" alt="console ps4">
-                            <h4>PlayStation 4</h4>
-                            <p>Giochi incredibili live su PS4, con 1 TB di spazio di archiviazione.</p>
-                            <button>Scopri di più</button>
+                            <h3>PlayStation 4</h3>
+                            <p class="text-color3 fs-5 my-4">Giochi incredibili live su PS4, con 1 TB di spazio di archiviazione.</p>
+                            <button id="more">Scopri di più</button>
                         </div>
                         <div class="col-12 col-md-4">
                             <img src="img/double11-202010-tw-psvr.jpg" alt="vr set">
-                            <h4>PlayStation VR</h4>
-                            <p>Oltre 500 titoli ed esperienze di gioco. Scoprili tutti.</p>
-                            <button>Scopri di più</button>
+                            <h3>PlayStation VR</h3>
+                            <p class="text-color3 fs-5 my-4">Oltre 500 titoli ed esperienze di gioco. Scoprili tutti.</p>
+                            <button id="more">Scopri di più</button>
                         </div>
                         <div class="col-12 col-md-4">
                             <img src="img/dualshock-4-listing-thumb.jpg" alt="controller ps4">
-                            <h4>Accessori</h4>
-                            <p>Migliora la tua esperienza PS4 con una gamma di accessori ufficiali.</p>
-                            <button>Scopri di più</button>
+                            <h3>Accessori</h3>
+                            <p class="text-color3 fs-5 my-4">Migliora la tua esperienza PS4 con una gamma di accessori ufficiali.</p>
+                            <button id="more">Scopri di più</button>
                         </div>
                     </div>
                 </div>
@@ -271,7 +274,7 @@
                         <div class="col-12 col-md-6 py-5">
                             <img class="plus-img" src="img/ps-plus-logo.png" alt="play plus">
                             <p class="py-4">Migliora la tua esperienza PlayStation con l'accesso a multigiocatore online, giochi mensili, sconti esclusivi e altro ancora.</p>
-                            <button>Esplora PlayStation Plus</button>
+                            <button id="explore">Esplora PlayStation Plus</button>
                         </div>
                         <div class="col-12 col-md-6">
                             <img class="d-none d-sm-none d-md-flex" src="img/ps-plus-april-monthly-games-featured-image-block.png" alt="play plus games">
@@ -305,10 +308,10 @@
                         <div class="col-12 col-md-6 py-5">
                             <img class="now-img" src="img/ps-now-logo-two-column.png" alt="play now">
                             <p class="py-4 text-color1">Ottieni l'accesso immediato a una vastissima raccolta di oltre 800 giochi per PS4, PS3 e PS2 su PS4 o PC Windows, con nuovi titoli aggiunti ogni mese.</p>
-                            <button>Esplora PlayStation Now</button>
+                            <button id="explore2">Esplora PlayStation Now</button>
                         </div>
                         <div class="col-12 col-md-6">
-                            <img class="d-none d-sm-none d-md-flex" src="img/ps-now-april-featured-image-block.png" alt="">
+                            <img class="d-none d-sm-none d-md-flex" src="img/ps-now-april-featured-image-block.png" alt="play now img">
                         </div>
                     </div>
                 </div>

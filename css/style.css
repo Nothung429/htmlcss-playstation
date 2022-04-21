@@ -1,4 +1,7 @@
 /*------ general ------*/
+body {
+    font-family: 'Poppins', sans-serif;
+}
 img {
     max-width: 100%;
 }
@@ -17,8 +20,31 @@ button {
     padding: 10px 20px;
     cursor: pointer;
 }
+#access {
+    background-color: #363636;
+    color: #fff;
+}
+#buy {
+    background-color: #cd3d0f;
+    color: #fff;
+}
+#info ,#more {
+    background-color: #2d64e6;
+    color: #fff;
+}
+#explore {
+    background-color: #d9dadc;
+    color: #2d64e6;
+}
+#explore2 {
+    background-color: #f5f5f5;
+    color: #000;
+}
 
 /*------ typo ------*/
+h1 ,h2 ,h3 ,h4 ,h5 ,h6 {
+    font-weight: 700;
+}
 p {
     margin: 0;
 }
