@@ -212,9 +212,10 @@ header {
 .ps5-comp {
     opacity: 0.6;
 }
-.active ,.ps5-comp:hover {
+.ps5-active ,.ps5-comp:hover {
     opacity: 1;
     border-bottom: 3px solid #0072ce;
+    margin-bottom: -3px;
 }
 
 /*------ section3 ------*/
