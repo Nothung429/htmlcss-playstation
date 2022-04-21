@@ -7,7 +7,6 @@ header {
 }
 /*------ header top ------*/
 .header-top {
-    background-color: #000;
     display: flex;
     justify-content: flex-end;
     padding: 10px;
@@ -18,7 +17,6 @@ header {
 }
 /*------ header bottom ------*/
 .header-bottom {
-    background-color: #fff;
     width: 100%;
 }
 .header-nav-left ,.header-nav-right {

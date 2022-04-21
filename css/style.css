@@ -7,7 +7,58 @@ img {
     margin: auto;
 }
 
-/*------ section1 ------*/
+/*------ buttons ------*/
+button {
+    border-radius: 30px;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+/*------ typo ------*/
+h2 {
+    font-size: 40px;
+}
+h3 {
+    font-size: 30px;
+}
+
+/*------ text colors ------*/
+.text-color1 {
+    color: #fff;
+}
+.text-color2 {
+    color: #1f1f1f;
+}
+.text-color3 {
+    color: #727272;
+}
+.text-color4 {
+    color: #0072ce;
+    text-transform: uppercase;
+}
+
+/*------ background colors ------*/
+.bg-color1 {
+    background-color: #000;
+}
+.bg-color2 {
+    background-color: #fff;
+}
+.bg-color3 {
+    background-color: #1f1f1f;
+}
+.bg-color4 {
+    background-color: #bebcbb;
+}
+.bg-color5 {
+    background-color: #161c3b;
+}
+.bg-color6 {
+    background-color: #00439c;
+}
+
+/*------ main ------*/
 /*------ jumbotron ------*/
 .jumbotron ,.jumbotron2 {
     height: 600px;
@@ -27,7 +78,6 @@ img {
     bottom: 50px;
     left: 30px;
     width: 30%;
-    color: #fff;
 }
 .hero img {
     width: 50%;
@@ -47,19 +97,8 @@ img {
 
 /*------ section3 ------*/
 .section3-bg {
-    background-color: #1f1f1f;
     color: #fff;
 }
 .new-games {
     border-radius: 20px;
-}
-
-/*------ section4 ------*/
-.section4-bg {
-    background-color: #bebcbb;
-}
-
-/*------ section5 ------*/
-.section5-bg {
-    background-color: #161c3b;
 }
