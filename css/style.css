@@ -5,12 +5,12 @@ body {
 img {
     max-width: 100%;
 }
+.plus-img ,.now-img {
+    width: 60%;
+}
 .container-custom {
     max-width: 700px;
     margin: auto;
-}
-.plus-img ,.now-img {
-    width: 60%;
 }
 
 /*------ buttons ------*/
@@ -40,9 +40,15 @@ button {
     background-color: #f5f5f5;
     color: #000;
 }
+
+/*------ buttons hover ------*/
 button:hover {
+    outline: 2px solid #fff;
+    outline-offset: -6px;
+}
+#explore2:hover {
     outline: 2px solid #000;
-    outline-offset: -5px;
+    outline-offset: -6px;
 }
 
 /*------ typo ------*/
@@ -206,13 +212,13 @@ header {
 .hero-references-active img {
     border-radius: 20px;
     border: 3px solid #00439c;
-    padding: 6px;
+    padding: 3px;
 }
 
 /*------ section1 hover ------*/
 .hero-references img:hover {
     border: 3px solid #00439c;
-    padding: 6px;
+    padding: 3px;
 }
 
 /*------ section2 ------*/
@@ -220,6 +226,7 @@ header {
     opacity: 0.6;
 }
 .ps5-active ,.ps5-comp:hover {
+    transition: opacity 0.6s;
     opacity: 1;
     border-bottom: 3px solid #0072ce;
     margin-bottom: -3px;
@@ -251,4 +258,7 @@ header {
 }
 .sie {
     width: 30%;
+}
+.footer-bottom .container .row a {
+    color: #fff;
 }
