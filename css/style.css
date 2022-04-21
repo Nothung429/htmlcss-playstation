@@ -16,6 +16,9 @@ button {
 }
 
 /*------ typo ------*/
+p {
+    margin: 0;
+}
 h2 {
     font-size: 40px;
 }
@@ -131,14 +134,11 @@ header {
     margin-top: 110px;
     background-image: url(../img/jumbo-bg.png);
 }
-.jumbotron2 {
-    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
-}
 .hero {
     position: absolute;
     bottom: 50px;
     left: 30px;
-    width: 30%;
+    width: 35%;
 }
 .hero img {
     width: 50%;
@@ -146,20 +146,34 @@ header {
 .hero > * {
     margin: 20px 0;
 }
-
 .hero-references img {
     border-radius: 20px;
 }
 
-/*------ section2 ------*/
-.section-title {
-    text-align: center;
-}
-
 /*------ section3 ------*/
-.section3-bg {
-    color: #fff;
+.jumbotron2 {
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
 }
 .new-games {
     border-radius: 20px;
+}
+
+/*------ footer ------*/
+.language-globe {
+    width: 4%;
+}
+.logo-footer {
+    filter: invert(100%) sepia(0%) saturate(1%) hue-rotate(152deg) brightness(105%) contrast(101%);
+    width: 20%;
+}
+.footer-nav ul li {
+    list-style: none;
+    margin: 5px 0;
+}
+.footer-nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+.sie {
+    width: 30%;
 }
