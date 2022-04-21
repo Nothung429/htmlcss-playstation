@@ -6,12 +6,15 @@ img {
     max-width: 700px;
     margin: auto;
 }
+.plus-img ,.now-img {
+    width: 60%;
+}
 
 /*------ buttons ------*/
 button {
     border-radius: 30px;
     border: none;
-    padding: 5px 10px;
+    padding: 10px 20px;
     cursor: pointer;
 }
 
@@ -125,25 +128,23 @@ header {
 /*------ main ------*/
 /*------ section1 ------*/
 .jumbotron ,.jumbotron2 {
-    height: 600px;
     background-size: cover;
     background-position: center;
-    position: relative;
 }
 .jumbotron {
     margin-top: 110px;
     background-image: url(../img/jumbo-bg.png);
 }
 .hero {
-    position: absolute;
-    bottom: 50px;
-    left: 30px;
-    width: 35%;
+    padding-top: 300px;
 }
 .hero img {
+    width: 70%;
+}
+.hero2 img {
     width: 50%;
 }
-.hero > * {
+.hero > * ,.hero2 > * {
     margin: 20px 0;
 }
 .hero-references img {
